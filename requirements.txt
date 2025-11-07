@@ -1,0 +1,12 @@
+scikit-learn
+pandas
+graphviz
+yfinance
+matplotlib
+numpy
+torch==2.9.0
+umap-learn
+umap-learn[plot]
+seaborn
+plotly
+missingno
