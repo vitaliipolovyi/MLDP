@@ -146,3 +146,5 @@ umap.plot.connectivity(X_fit, show_points=True)
 
 # %%
 umap.plot.connectivity(X_fit, show_points=True, edge_bundling='hammer')
+
+# %%

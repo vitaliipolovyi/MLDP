@@ -233,10 +233,10 @@ L(w) = \prod_{i=1}^{n} [\hat{y}_i^{y_i}(1 - \hat{y}_i
 )^{1 - y_i}],
 $$
 $$
-J(w) = \operatorname{log}J(w),
+J(w) = \operatorname{log}L(w),
 $$
 $$
-\operatorname{arg}\operatorname{max}_wL(w)=\operatorname{arg}\operatorname{max}_wJ(w).
+\operatorname{arg}\operatorname{max}_wL(w)=\operatorname{arg}\operatorname{min}_wJ(w).
 $$
 
 ---

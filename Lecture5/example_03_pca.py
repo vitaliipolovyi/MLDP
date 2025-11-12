@@ -157,7 +157,7 @@ plt.ylabel("Explained variance (%)")
 pca_components = abs(pca.components_)
 
 # %%
-print('Top 4 most important features in each component')
+print('Top 4 most important features in each PCA component')
 for row in range(pca_components.shape[0]):
     temp = np.argpartition(-(pca_components[row]), 4)
     indices = temp[np.argsort((-pca_components[row])[temp])][:4]
