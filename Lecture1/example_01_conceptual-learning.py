@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 # %%
 # Алгоритми FIND-S та Candidate-Elimination (CE).
 # Концепція для навчання (бінарна): "є ссавцем", визначена стовпцем 'milk' у датасеті Zoo.
-# Атрибут 'milk' буде використано як ціль.
+# Атрибут 'milk' використано як ціль.
 
 # Допоміжні функції для операцій з гіпотезами
 def is_more_general_or_equal(h1, h2):
@@ -149,8 +149,10 @@ yz = zoo['milk'].astype(int)
 # Приклади
 instances = [(tuple(row), label) for row, label in zip(Xz.values, yz.values)]
 
+# %%
 # Домени
 domains = [set(Xz[col]) for col in Xz.columns]
+domains
 
 # %%
 print("\\nFIND-S & Candidate-Elimination (концепція: milk==1)")
